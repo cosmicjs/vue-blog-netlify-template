@@ -7,8 +7,7 @@
   "scripts": {
     "dev": "node build/dev-server.js",
     "start": "node server.js",
-    "heroku-prebuild": "export NPM_CONFIG_PRODUCTION=false; export NODE_ENV=; NPM_CONFIG_PRODUCTION=false NODE_ENV=development npm install",
-    "heroku-postbuild": "export NPM_CONFIG_PRODUCTION=true; export NODE_ENV=production;",
+    "heroku-prebuild": "npm install",
     "build": "node build/build.js",
     "postinstall": "npm run build",
     "lint": "eslint --ext .js,.vue src"
