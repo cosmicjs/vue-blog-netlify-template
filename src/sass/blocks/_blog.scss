@@ -71,9 +71,18 @@
     .signature {
       display: inline-block;
       width: 15rem;
+      text-align: center;
 
       @media (--tablet) {
         width: 18rem;
+      }
+    }
+    .cosmicjs {
+      color: #ADB6C0;
+      text-transform: capitalize;
+      a {
+        color: #2A3744;
+        font-weight: 400;
       }
     }
   }
