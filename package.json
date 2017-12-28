@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "node build/dev-server.js",
     "start": "node server.js",
-    "heroku-prebuild": "export NPM_CONFIG_PRODUCTION=false; export NODE_ENV=; NPM_CONFIG_PRODUCTION=false NODE_ENV=development npm install --only=dev --dev",
+    "heroku-prebuild": "export NPM_CONFIG_PRODUCTION=false; export NODE_ENV=; NPM_CONFIG_PRODUCTION=false NODE_ENV=development npm install",
     "heroku-postbuild": "export NPM_CONFIG_PRODUCTION=true; export NODE_ENV=production;",
     "build": "node build/build.js",
     "postinstall": "npm run build",
@@ -15,6 +15,8 @@
   },
   "dependencies": {
     "capitalize": "^1.0.0",
+    "connect-history-api-fallback": "^1.5.0",
+    "express": "^4.16.2",
     "lodash.map": "^4.6.0",
     "lodash.merge": "^4.6.0",
     "scrollto-with-animation": "^4.5.2",
@@ -33,7 +35,6 @@
     "babel-preset-stage-2": "^6.22.0",
     "babel-register": "^6.22.0",
     "chalk": "^2.0.1",
-    "connect-history-api-fallback": "^1.5.0",
     "copy-webpack-plugin": "^4.0.1",
     "css-loader": "^0.28.0",
     "dotenv": "^4.0.0",
@@ -47,7 +48,6 @@
     "eslint-plugin-promise": "^3.4.0",
     "eslint-plugin-standard": "^3.0.1",
     "eventsource-polyfill": "^0.9.6",
-    "express": "^4.16.2",
     "extract-text-webpack-plugin": "^3.0.0",
     "file-loader": "^1.1.4",
     "friendly-errors-webpack-plugin": "^1.6.1",
