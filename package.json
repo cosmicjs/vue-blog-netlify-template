@@ -1,8 +1,8 @@
 {
   "name": "vue-blog-demo",
-  "version": "1.0.0",
-  "description": "A Vue.js blog demo to demonstrate proper decoupling of api data and swapping of resources/providers",
-  "author": "Nicolas Udy <dev@udy.io>",
+  "version": "1.0.1",
+  "description": "A simple blog app built using Vue & Vuex. It connects to the Cosmic JS CMS via API. You can manage your content from your Cosmic JS Dashboard.",
+  "author": "Jazib Sawar <jazibsawar@gmail.com>",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
