@@ -1,5 +1,6 @@
 import cache from './cache'
 import _merge from 'lodash.merge'
+import config from '../../config'
 
 // install $resource as a Vue plugin
 export default {
@@ -10,7 +11,12 @@ export default {
 
       // get fetch path and response resolver/mapper
       let { path, resolve } = resources[name][method](options)
-      let uri = endpoint + path
+      let uri = '';
+      if (method === 'blog') {
+        uri = '/static/api' + path
+      } else {
+        uri = endpoint + path + '?hide_metafields=true&read_key=' + config.COSMIC_READ_KEY
+      }
 
       // methods return promise to allow chaining
       const mappers = {

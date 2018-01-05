@@ -13,9 +13,9 @@ export default {
 
   computed: {
     title() {
-      if (this.filters.post) return `${this.subTitle} - Blog`;
+      if (this.filters.post) return `${this.subTitle} - Post`;
       if (this.filters.author) return `${this.subTitle} - Author`;
-      return `Blog - ${this.blogName}`;
+      return `Feed - ${this.blogName}`;
     }
   },
 
