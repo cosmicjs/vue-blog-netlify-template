@@ -8,7 +8,7 @@
     "dev": "node build/dev-server.js",
     "start": "node server.js",
     "build": "node build/build.js",
-    "heroku-postbuild": "npm install --only=dev && npm run build && npm prune --production",
+    "heroku-postbuild": "npm run build",
     "lint": "eslint --ext .js,.vue src"
   },
   "dependencies": {
