@@ -6,11 +6,9 @@ This template provides blog, blog posts, authors and elegant modern design ready
 
 ![Vue.js Blog Template Powered by Cosmic JS](https://cosmic-s3.imgix.net/c3e70670-9bdf-11e8-8928-b51c5e4c8149-vue-blog.png?w=2000 "Vue.js Blog Template Powered by Cosmic JS")
 
-> [See live demo hosted on Netlify](https://cosmicjs.com/apps/simple-vue-blog)
+### [View live demo](https://cosmicjs.com/apps/simple-vue-blog)
 
-[![Deploy to Netlify](src/assets/deploy-button.svg "Deploy this application to Netlify")](https://app.netlify.com/start/deploy?repository=https://github.com/cosmicjs/vue-blog-netlify-template)
-
-## How-to Guide
+## Getting Started
 
 Below are steps to deploy your application on Netlify and integrate with Cosmic JS for content editing.
 
