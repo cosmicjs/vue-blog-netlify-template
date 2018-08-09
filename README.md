@@ -1,10 +1,10 @@
-# Vue.js Blog with CosmicJS CMS - Bob
+# Vue.js Blog Template Powered by Cosmic JS
 
 A simple Vue.JS template for creating a fast, beautiful blog on Netlify with a continuous deployment workflow and [CosmicJS CMS](https://cosmicjs.com) for content editing.
 
 This template provides blog, blog posts, authors and elegant modern design ready to deploy on [Netlify](http://netlify.com/) with one Click!
 
-![Vue.js Blog with CosmicJS CMS - Bob](src/assets/ApplicationHomePage.png "Vue.js Blog with CosmicJS CMS - Bob")
+![Vue.js Blog Template Powered by Cosmic JS](src/assets/ApplicationHomePage.png "Vue.js Blog Template Powered by Cosmic JS")
 
 > [See live demo hosted on Netlify](https://vue-blog-demo.netlify.com/)
 
