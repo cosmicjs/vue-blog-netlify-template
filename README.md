@@ -1,6 +1,6 @@
 # Vue.js Blog Template Powered by Cosmic JS
 
-A simple Vue.JS template for creating a fast, beautiful blog on Netlify with a continuous deployment workflow and [CosmicJS CMS](https://cosmicjs.com) for content editing.
+A simple Vue.JS template for creating a fast, beautiful blog on Netlify with a continuous deployment workflow and [Cosmic JS CMS](https://cosmicjs.com) for content editing.
 
 This template provides blog, blog posts, authors and elegant modern design ready to deploy on [Netlify](http://netlify.com/) with one Click!
 
@@ -12,21 +12,21 @@ This template provides blog, blog posts, authors and elegant modern design ready
 
 ## How-to Guide
 
-Below are steps to deploy your application on Netlify and integrate with CosmicJS for content editing.
+Below are steps to deploy your application on Netlify and integrate with Cosmic JS for content editing.
 
 ### 1. Deploy to Netlify
 
-Click on the button below to deploy this application to Netlify. By default, it will be connected to the default CosmicJS bucket.
+Click on the button below to deploy this application to Netlify. By default, it will be connected to the default Cosmic JS bucket.
 
 [![Deploy to Netlify](src/assets/deploy-button.svg "Deploy this application to Netlify")](https://app.netlify.com/start/deploy?repository=https://github.com/cosmicjs/vue-blog-netlify-template)
 
-### 2. Create CosmicJS Bucket
+### 2. Create Cosmic JS Bucket
 
 Go to [https://cosmicjs.com/add-bucket](https://cosmicjs.com/add-bucket) and provide your `project name`, select `Install App` and then `Save Bucket`.
 
-![Create CosmicJS Bucket](src/assets/add-bucket.png)
+![Create Cosmic JS Bucket](src/assets/add-bucket.png)
 
-It will create your CosmicJS bucket and take you to install application page. On this page, enter `"Simple Vue Blog"` in `Search Apps` box.
+It will create your Cosmic JS bucket and take you to install application page. On this page, enter `"Simple Vue Blog"` in `Search Apps` box.
 
 ![Search App](src/assets/search_apps.png)
 
@@ -46,10 +46,10 @@ Now go to Netlify Site Settings and then go to the `Build and Deploy` page. Scro
 
 ```javascript
 {
-    "COSMIC_BUCKET": "", /* Default: 'simple-vue-blog' */
-    "COSMIC_READ_KEY": "", /* Default: ' */
-    "COSMIC_WRITE_KEY": "", /* Default: '' */
-    "BLOG_TITLE": "", /* Default: 'Vue Blog Cosmic JS' */
+    COSMIC_BUCKET: "", /* Default: 'simple-vue-blog' */
+    COSMIC_READ_KEY: "", /* Default: ' */
+    COSMIC_WRITE_KEY: "", /* Default: '' */
+    BLOG_TITLE: "", /* Default: 'Vue Blog Cosmic JS' */
 }
 ```
 
