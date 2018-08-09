@@ -4,7 +4,7 @@ A simple Vue.JS template for creating a fast, beautiful blog on Netlify with a c
 
 This template provides blog, blog posts, authors and elegant modern design ready to deploy on [Netlify](http://netlify.com/) with one Click!
 
-![Vue.js Blog Template Powered by Cosmic JS](src/assets/ApplicationHomePage.png "Vue.js Blog Template Powered by Cosmic JS")
+![Vue.js Blog Template Powered by Cosmic JS](https://cosmic-s3.imgix.net/c3e70670-9bdf-11e8-8928-b51c5e4c8149-vue-blog.png?w=1200 "Vue.js Blog Template Powered by Cosmic JS")
 
 > [See live demo hosted on Netlify](https://vue-blog-demo.netlify.com/)
 
