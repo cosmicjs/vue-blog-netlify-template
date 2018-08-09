@@ -10,7 +10,7 @@ This template provides blog, blog posts, authors and elegant modern design ready
 
 ## Getting Started
 
-Below are steps to deploy your application on Netlify and integrate with Cosmic JS for content editing.
+Below are steps to deploy your application to Netlify and integrate with Cosmic JS for content editing.
 
 ### 1. Deploy to Netlify
 
