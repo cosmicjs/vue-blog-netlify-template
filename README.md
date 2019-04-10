@@ -20,15 +20,7 @@ Click the button below to deploy this application to Netlify. By default, it wil
 
 ### 2. Create Cosmic JS Bucket
 
-Go to [https://cosmicjs.com/add-bucket](https://cosmicjs.com/add-bucket) and provide your `project name`, select `Install App` and then `Save Bucket`.
-
-![Create Cosmic JS Bucket](src/assets/add-bucket.png)
-
-It will create your Cosmic JS Bucket and take you to install application page. On this page, enter `"Simple Vue Blog"` in `Search Apps` box.
-
-![Search App](src/assets/search_apps.png)
-
-Click on the result and install the app.
+Go to [https://cosmicjs.com/apps/simple-vue-blog](Simple Vue Blog page) and click `Install App`.
 
 ![Install App](src/assets/install_app.png)
 
