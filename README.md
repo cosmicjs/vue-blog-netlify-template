@@ -14,7 +14,7 @@ Below are steps to deploy your application to Netlify and integrate with Cosmic 
 
 ### 1. Deploy to Netlify
 
-Click the button below to deploy this application to Netlify. By default, it will be connected to the a demo Cosmic JS Bucket.
+Click the button below to deploy this application to Netlify. By default, it will be connected to a Bucket with demo content.
 
 [![Deploy to Netlify](src/assets/deploy-button.svg "Deploy this application to Netlify")](https://app.netlify.com/start/deploy?repository=https://github.com/cosmicjs/vue-blog-netlify-template)
 
